@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Gerar-TermodeResponsabilidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="menu">
+      <section class="title">
+        <h3>Termo de Responsabilidade sobre Palms</h3>
+      </section>
+      <form class="paiform" action="" method="post">
+        <div class="filhoform" id="1">
+          <div class="labelfilhoform">
+            <label for="funcionario">Nome Funcionário:</label>
+          </div>
+          <input
+            type="text"
+            id="funcionario"
+            class="formulario"
+            title="Informe o nome do funcionario"
+          />
+        </div>
+        <div class="filhoform" id="2">
+          <div class="labelfilhoform"><label for="cpf_number">CPF:</label></div>
+          <input
+            type="number"
+            class="formulario"
+            id="cpf_number"
+            minlength="11"
+            maxlength="11"
+            title="Informe apenas os numeros do cpf do funcionario"
+          />
+        </div>
+        <div class="filhoform" id="3">
+          <div class="labelfilhoform">
+            <label for="modelodis">Modelo do Dispositivo:</label>
+          </div>
+          <input
+            type="text"
+            class="formulario"
+            id="modelodis"
+            title="Informe o modelo do Dispositivo"
+          />
+        </div>
+        <div class="filhoform" id="4">
+          <div class="labelfilhoform">
+            <label for="imei">IMEI do Dispositivo</label>
+          </div>
+          <input
+            type="number"
+            class="formulario"
+            id="imei"
+            pattern="^[0-9]{15}$"
+            title="Informe o Imei do Dispositivo"
+          />
+        </div>
+        <input
+          type="button"
+          onclick="gerarPdf()"
+          value="Gerar Termo"
+          id="buttongerar"
+          class="buttongerar"
+        />
+        <input
+          type="button"
+          onclick="limparCampo()"
+          value="Resetar"
+          id="buttonreset"
+          class="buttongerar"
+        />
+      </form>
+    </main>
+  </body>
+  <script src="./src/main.js" defer></script>
+</html>

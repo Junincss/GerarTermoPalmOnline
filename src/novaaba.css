@@ -1,0 +1,59 @@
+/* .devolucao {
+  margin-left: 5px;
+}
+.Titulo {
+  margin-top: 50px;
+  font-weight: 600;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 800px;
+  height: 18px;
+  text-align: center;
+}
+.mainNew {
+  margin-top: 10px;
+}
+.signature > p {
+  text-align: justify;
+  text-align: center;
+  text-decoration: overline;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#contexto {
+  margin-top: 5rem;
+}
+ol {
+  margin-right: 2rem;
+} */
+
+.devolucao {
+  margin-left: 0.313em;
+}
+.Titulo {
+  margin-top: 3.125em;
+  font-weight: 600;
+  margin-left: 0.125em;
+  margin-right: 0.125em;
+  width: 50em;
+  height: 1.125em;
+  text-align: center;
+}
+.mainNew {
+  margin-top: 0.625em;
+}
+.signature > p {
+  text-align: justify;
+  text-align: center;
+  text-decoration: overline;
+  font-weight: 700;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+#contexto {
+  margin-top: 5rem;
+}
+ol {
+  margin-right: 2rem;
+}
